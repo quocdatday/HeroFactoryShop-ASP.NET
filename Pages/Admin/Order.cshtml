@@ -1,0 +1,195 @@
+﻿@page
+@model ShopOnline.Pages.Admin.OrderModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Order";
+}
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">Order <small class="text-muted">list</small></h3>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>Customer</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Total Price</th>
+                        <th>Payment method</th>
+                        <th>Is paid</th>
+                        <th>Note</th>
+                        <th>Created date</th>
+                        <th style="width: 20px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.Orders != null && Model.Orders.Any()){
+                        foreach (var ord in Model.Orders)
+                        {
+                            <tr data-id="@ord.ORD_ID">
+                                <td class="text-center">@ord.ORD_ID</td>
+                                <td>@ord.Customer</td>
+                                <td>@ord.Phone</td>
+                                <td>@ord.Address</td>
+                                <td>@ord.TotalPrice.ToString("#.#0")</td>
+                                <td>@ord.PaymentMethod</td>
+                                <td class="now-rap">
+                                    @if (ord.IsPaid == null)
+                                    {
+                                        <form method="post" asp-page="/admin/Order" asp-page-handler="EditAccept">
+                                            <input name="EditId" type="number" value="@ord.ORD_ID" hidden />
+                                            <button type="submit" class="link-success">Accept</button>
+                                        </form>
+                                        <form method="post" asp-page="/admin/Order" asp-page-handler="EditCancel">
+                                            <input name="EditId" type="number" value="@ord.ORD_ID" hidden />
+                                            <button type="submit" class="link-danger">Cancel</button>
+                                        </form>
+                                    }else
+                                    {
+                                        if (ord.IsPaid == true)
+                                        {
+                                            <p class="m-0 p-0">Yes</p>
+                                        }
+                                        if (ord.IsPaid == false)
+                                        {
+                                            <p class="m-0 p-0">No</p>
+                                        }
+                                    }
+                                </td>
+                                <td>@ord.Note</td>
+                                <td>@ord.CreatedDate</td>
+                                <td>
+                                    <button data-group="DetailClick" type="button" class="link-danger" data-id="@ord.ORD_ID"><i class="ti ti-eye"></i></button>
+                                    <button type="button" class="link-success" onclick="Delete(@ord.ORD_ID)"><i class="ti ti-trash"></i></button>
+                                </td>
+                            </tr>
+                        }
+                    }else
+                    {
+                        <tr>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td class="d-none"></td>
+                            <td colspan="10" class="text-center">Have no date</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="Details" class="fixed-top top-100 container">
+    <div class="row justify-content-center">
+        <div class="col-auto p-3 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+            <input id="inputData" value="Order" hidden />
+            <input name="hidDlt" id="inputDetail" value="" hidden />
+            <div  class="row mb-2 rounded align-items-center px-3 py-2" style="background: #442e6b; max-height: 75px;">
+                <div class="col-4 p-2">
+                     <span class="m-0 text-white d-none d-lg-inline">Pro ID:</span>
+                </div>
+                <div class="col-4 text-center p-2">
+                     <p class="m-0 text-white">
+                          <span class="">Quantity</span>
+                     </p>
+                </div>
+                <div class="col-4 text-center p-2">
+                     <p class="m-0 text-white">Price</p>
+                </div>
+                @* <div class="col-2 text-center p-2">
+                     <p class="m-0 text-white"></p>
+                </div> *@
+            </div>
+            <div id="render" class="p-3"></div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button type="button" onclick="Details(null)" class="btn btn-primary">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div
+@section Delete {
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="Order" hidden />
+                <input name="hidDlt" id="inputDlt" value="" hidden />
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $(`button[data-group='DetailClick']`).on('click', function () {
+                Details($(this).attr('data-id'));
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Order?handler=Display`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        ID: $('#inputDetail').val(),
+                    }),
+                    success: function(res) {
+                       var x = $('#render');
+                        x.empty();
+                       res.forEach(function(cdt) {
+                           x.append(
+                           `
+                           <div  class="row mb-2 rounded align-items-center px-3 py-2" style="background: #442e6b; max-height: 75px;">
+                                            <div class="col-4 p-2">
+                                                <span class="m-0 text-white d-none d-lg-inline">${cdt.prO_ID}</span>
+                                            </div>
+                                            <div class="col-4 text-center p-2">
+                                                <p class="m-0 text-white">
+                                                    <span class="">${cdt.quantity}</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-4 text-center p-2">
+                                                <p class="m-0 text-white">${cdt.price}</p>
+                                            </div>
+                                        </div>
+                           `);
+                       });
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,286 @@
+﻿@page
+@model ShopOnline.Pages.Admin.BannerModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Banner";
+}
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">Banner <small class="text-muted">list</small></h3>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="Add()"><i class="ti ti-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>Title</th>
+                        <th>Image</th>
+                        <th>Url</th>
+                        <th>DPOrder</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBY</th>
+                        <th style="width: 20px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.Banners != null && Model.Banners.Any()){
+                        foreach(var banner in Model.Banners)
+                        {
+                            <tr data-id="@banner.BAN_ID">
+                                <td class="text-center">@banner.BAN_ID</td>
+                                <td data-title="@banner.BAN_ID">@banner.Title</td>
+                                <td data-image="@banner.BAN_ID">@banner.Image</td>
+                                <td data-url="@banner.BAN_ID">@banner.Url</td>
+                                <td data-dplod="@banner.BAN_ID">@banner.DisplayOrder</td>
+                                <td>@banner.CreatedDate</td>
+                                <td>@banner.CreatedBy</td>
+                                <td>
+                                    <button type="button" data-group="edit" data-id="@banner.BAN_ID"><i class="ti ti-edit"></i></button>
+                                    <button type="button" class="link-danger" onclick="Delete(@banner.BAN_ID)"><i class="ti ti-trash"></i></button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">Have no data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+@section Add {
+    <div id="Add" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Add Banner</p>
+                <div>
+                    <div class="row mb-3">
+                        <label for="Title" class="col-4 text-end">Title:</label>
+                        <input name="" id="Title" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Url" class="col-4 text-end">Url:</label>
+                        <input name="" id="Url" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="DisplayOrder" class="col-4 text-end">Display order:</label>
+                        <input name="" id="DisplayOrder" type="number" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Image" class="col-4 text-end">Image:</label>
+                        <input name="" id="Image" type="file" class="col-6 text-start" accept=".jpg, .jpeg, .png" /> <br />
+                    </div>
+                    <div>
+                        <button id="btnAdd" type="submit" class="btn btn-primary me-2">Add</button>
+                        <button type="button" onclick="Add()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Edit {
+    <div id="Edit" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Edit Banner</p>
+                <div>
+                    <input id="inputEdit" type="text" name="x" value="" hidden />
+                    <div class="row mb-3">
+                        <label for="TitleED" class="col-4 text-end">Title:</label>
+                        <input name="TitleED" id="TitleED" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="UrlED" class="col-4 text-end">Url:</label>
+                        <input name="UrlED" id="UrlED" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="DisplayOrderED" class="col-4 text-end">Display order:</label>
+                        <input name="DisplayOrderED" id="DisplayOrderED" type="number" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="ImageED" class="col-4 text-end">Image:</label>
+                        <input name="ImageED" id="ImageED" type="file" class="col-6 text-start" accept=".jpg, .jpeg, .png" /> <br />
+                    </div>
+                    <div>
+                        <button id="btnEdit" type="submit" class="btn btn-primary me-2">Save</button>
+                        <button type="button" onclick="Edit()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Delete {
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="Banner" hidden />
+                <input name="hidDlt" id="inputDlt" value="" hidden />
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#btnAdd').on('click', function () {
+                //
+                var fileInput = $('#Image').prop('files')[0];
+                var title = $('#Title').val();
+                var url = $('#Url').val();
+                var displ = $('#DisplayOrder').val();
+                if (!fileInput || title == "" || url == "" || displ == "") {
+                    alert("Data must not null");
+                    return 0;
+                }
+                //
+                var formData = new FormData();
+                formData.append('Image', fileInput);
+                formData.append('Title', title);
+                formData.append('Url', url);
+                formData.append('DisplayOrder', displ);
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                //
+                $.ajax({
+                    url: `/admin/Banner?handler=AddBanner`,
+                    type: 'POST',
+                    contentType: false,
+                    processData: false,
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: formData,
+                    success: function (res) {
+                        $('#Image').val("");
+                        $('#Title').val("");
+                        $('#Url').val("");
+                        $('#DisplayOrder').val("");
+                        // $('#tbody').append(
+                        //     `
+                        //             <tr data-id="${res.banner.baN_ID}">
+                        //                <td class="text-center">${res.banner.baN_ID}</td>
+                        //                <td data-title="${res.banner.baN_ID}">${res.banner.title}</td>
+                        //                <td data-image="${res.banner.baN_ID}">${res.banner.image}</td>
+                        //                <td data-url="${res.banner.baN_ID}">${res.banner.url}</td>
+                        //                <td data-dplod="${res.banner.baN_ID}">${res.banner.displayOrder}</td>
+                        //                <td>${updateDT(res.banner.createdDate)}</td>
+                        //                <td>${res.banner.createdBy}</td>
+                        //                <td>
+                        //                   <button type="button" data-group="edit" data-id="${res.banner.baN_ID}"><i class="ti ti-edit"></i></button>
+                        //                   <button type="button" class="link-danger" onclick="Delete(${res.banner.baN_ID})"><i class="ti ti-trash"></i></button>
+                        //                </td>
+                        //             </tr>
+                        //         `
+                        // );
+                        var table = $('#example').DataTable();
+                        var x = $('<tr>').attr('data-id', res.banner.baN_ID)
+                            .append(`<td class="text-center">${res.banner.baN_ID}</td>`)
+                            .append(`<td data-title="${res.banner.baN_ID}">${res.banner.title}</td>`)
+                            .append(`<td data-image="${res.banner.baN_ID}">${res.banner.image}</td>`)
+                            .append(`<td data-url="${res.banner.baN_ID}">${res.banner.url}</td>`)
+                            .append(`<td data-dplod="${res.banner.baN_ID}">${res.banner.displayOrder}</td>`)
+                            .append(`<td>${updateDT(res.banner.createdDate)}</td>`)
+                            .append(`<td>${res.banner.createdBy}</td>`)
+                            .append(`<td>
+                                        <button type="button" data-group="edit" data-id="${res.banner.baN_ID}"><i class="ti ti-edit"></i></button>
+                                        <button type="button" class="link-danger" onclick="Delete(${res.banner.baN_ID})"><i class="ti ti-trash"></i></button>
+                                    </td>`);
+                        table.row.add(x).draw();
+                        $("#Add").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                    },
+                    error: function (er) {
+                        Console.log(er);
+                    }
+                });
+            });
+
+
+
+            $(`#tbody`).on('click', `button[data-group="edit"]`, function () {
+                Edit();
+                var BAN_ID = $(this).attr('data-id');
+                var title = $(`td[data-title='${BAN_ID}']`).text();
+                var url = $(`td[data-url="${BAN_ID}"]`).text();
+                var dpl = $(`td[data-dplod="${BAN_ID}"]`).text();
+                $('#TitleED').val(title);
+                $('#UrlED').val(url);
+                $('#DisplayOrderED').val(dpl);
+                $('#inputEdit').val(BAN_ID);
+            });
+
+            $('#btnEdit').on('click', function () {
+                //
+                var fileInput = $('#ImageED').prop('files')[0];
+                var title = $('#TitleED').val();
+                var url = $('#UrlED').val();
+                var displ = $('#DisplayOrderED').val();
+                if (title == "" || url == "" || displ == "") {
+                    alert("Data must not null");
+                    return 0;
+                }
+                //
+                var formData = new FormData();
+                formData.append('ID', $('#inputEdit').val());
+                formData.append('Image', fileInput);
+                formData.append('Title', title);
+                formData.append('Url', url);
+                formData.append('DisplayOrder', displ);
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                //
+                $.ajax({
+                    url: `/admin/Banner?handler=EditBanner`,
+                    type: 'POST',
+                    contentType: false,
+                    processData: false,
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: formData,
+                    success: function (res) {
+                        $('#ImageED').val("");
+                        $('#TitleED').val("");
+                        $('#UrlED').val("");
+                        $('#DisplayOrderED').val("");
+                        var row = $(`tr[data-id="${res.banner.baN_ID}"]`);
+                        row.find('td:eq(1)').text(res.banner.title);
+                        row.find('td:eq(2)').text(res.banner.image);
+                        row.find('td:eq(3)').text(res.banner.url);
+                        row.find('td:eq(4)').text(res.banner.displayOrder);
+                        row.find('td:eq(5)').text(updateDT(res.banner.createdDate));
+                        $("#Edit").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                    },
+                    error: function (er) {
+                        Console.log(er);
+                    }
+                });
+            });
+        });
+    </script>
+}

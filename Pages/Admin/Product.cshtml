@@ -1,0 +1,320 @@
+﻿@page
+@model ShopOnline.Pages.admin.ProductModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "List";
+}
+
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">Product <small class="text-muted">list</small></h3>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="Add()"><i class="ti ti-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-striped table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th class="d-none"></th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Rate</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBy</th>
+                        <th style="width: 20px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.Products != null && Model.Products.Any())
+                    {
+                        foreach(var products in Model.Products)
+                        {
+                            <tr data-id="@products.PRO_ID">
+                                <td>@products.PRO_ID</td>
+                                <td data-image="@products.PRO_ID">@products.Image</td>
+                                <td data-title="@products.PRO_ID">@products.Title</td>
+                                <td data-subtitle="@products.PRO_ID" class="d-none">@products.Subtitle</td>
+                                <td data-catid="@products.PRO_ID">@products.Category!.Name</td>
+                                <td data-price="@products.PRO_ID">@products.Price.ToString("#.#0")</td>
+                                <td data-rate="@products.PRO_ID">@products.Rate</td>
+                                <td >@products.CreatedDate</td>
+                                <td>@products.CreatedBy</td>
+                                <td>
+                                    <button type="button" data-group="edit" data-id="@products.PRO_ID"><i class="ti ti-edit"></i></button>
+                                    <button type="button" class="link-danger" onclick="Delete(@products.PRO_ID)"><i class="ti ti-trash"></i></button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">This have no data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+@section Add{
+    <div id="Add" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Add</p>
+                <div>
+                    <div class="row mb-3">
+                        <label for="CAT_ID" class="col-3 text-end">Category:</label>
+                        <select id="CAT_ID" class="col-6">
+                            @if(Model.Categories != null && Model.Categories.Any())
+                            {
+                                foreach(var item in Model.Categories)
+                                {
+                                    <option value="@item.CAT_ID">@item.Name</option>  
+                                }
+                            }
+                            else
+                            {
+                                <option value="null">Null</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Image" class="col-3 text-end">Image:</label>
+                        <input name="" id="Image" type="file" class="col-6 text-start" accept=".jpg, .jpeg, .png"/> <br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Title" class="col-3 text-end">Title:</label>
+                        <input name="" id="Title" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Subtitle" class="col-3 text-end">Subtitle:</label>
+                        @* <input name="" id="Subtitle" type="text" class="col-6 text-start" /><br /> *@
+                        <textarea id="Subtitle" name="Subtitle" class="col-6 text-start" rows="4"></textarea><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Price" class="col-3 text-end">Price:</label>
+                        <input name="" id="Price" type="number" class="col-6 text-start" /><br />
+                    </div>
+                    <div>
+                        <button id="btnAdd" type="button" class="btn btn-primary me-2">Add</button>
+                        <button type="button" onclick="Add()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Edit {
+    <div id="Edit" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Edit Product</p>
+                <div>
+                    <input id="inputEdit" type="text" name="x" value="" hidden />
+                    <div class="row mb-3">
+                        <label for="CAT_IDED" class="col-3 text-end">Category:</label>
+                        <select id="CAT_IDED" class="col-6">
+                            @if (Model.Categories != null && Model.Categories.Any())
+                            {
+                                foreach (var item in Model.Categories)
+                                {
+                                    <option value="@item.CAT_ID">@item.Name</option>
+                                }
+                            }
+                            else
+                            {
+                                <option value="null">Null</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="ImageED" class="col-3 text-end">Image:</label>
+                        <input name="ImageED" id="ImageED" type="file" class="col-6 text-start" accept=".jpg, .jpeg, .png" /> <br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="TitleED" class="col-3 text-end">Title:</label>
+                        <input name="TitleED" id="TitleED" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="SubtitleED" class="col-3 text-end">Subtitle:</label>
+                        @* <input name="SubtitleED" id="SubtitleED" type="text" class="col-6 text-start" /> *@
+                        <textarea id="SubtitleED" name="SubtitleED" class="col-6 text-start" rows="4"></textarea><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="PriceED" class="col-3 text-end">Price:</label>
+                        <input name="PriceED" id="PriceED" type="number" class="col-6 text-start" /><br />
+                    </div>
+                    <div>
+                        <button id="btnEdit" type="button" class="btn btn-primary me-2">Save</button>
+                        <button type="button" onclick="Edit()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Delete {
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="Product" hidden />
+                <input name="hidDlt" id="inputDlt" value="" hidden />
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            //
+            $("#btnAdd").on('click', function () {
+                var fileInput = $('#Image').prop('files')[0];
+                var cate = $('#CAT_ID').val();
+                var title = $('#Title').val();
+                var subtitle = $('#Subtitle').val();
+                var price = $('#Price').val();
+                if (cate == "" || title == "" || subtitle == "" || price == "" || !fileInput) {
+                    alert("Data must not null");
+                    return 0;
+                }
+                var formData = new FormData();
+                formData.append('Image', fileInput);
+                formData.append('Title', $('#Title').val());
+                formData.append('Subtitle', $('#Subtitle').val());
+                formData.append('CATID', $('#CAT_ID').val());
+                formData.append('Price', $('#Price').val());
+                formData.append('Namecat', $('#CAT_ID option:selected').text());
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Product?handler=AddProduct`,
+                    type: 'POST',
+                    contentType: false,
+                    processData: false,
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: formData,
+                    success: function (res) {
+                        $('#Image').val("");
+                        $('#Title').val("");
+                        $('#Subtitle').val("");
+                        $('#Price').val("");
+                        console.log(res);
+                        var table = $('#example').DataTable();
+                        var x = $('<tr>').attr('data-id', res.product.prO_ID)
+                            .append(`<td class="text-center">${res.product.prO_ID}</td>`)
+                            .append(`<td>${res.product.image}</td>`)
+                            .append(`<td data-title="${res.product.prO_ID}">${res.product.title}</td>`)
+                            .append(`<td data-subtitle="${res.product.prO_ID}" class="d-none">${res.product.subtitle}</td>`)
+                            .append(`<td data-catid="${res.product.prO_ID}">${res.namecat}</td>`)
+                            .append(`<td data-price="${res.product.prO_ID}">${res.product.price}</td>`)
+                            .append(`<td>${res.product.rate}</td>`)
+                            .append(`<td>${updateDT(res.product.createdDate)}</td>`)
+                            .append(`<td>${res.product.createdBy}</td>`)
+                            .append(`<td>
+                                          <button type="button" data-group="edit" data-id="${res.product.prO_ID}"><i class="ti ti-edit"></i></button>
+                                          <button type="button" class="link-danger" onclick="Delete(${res.product.prO_ID})"><i class="ti ti-trash"></i></button>
+                                     </td>`);
+                        table.row.add(x).draw(false);
+                        $("#Add").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+
+
+            $(`#tbody`).on('click', `button[data-group="edit"]`, function () {
+                Edit();
+                var PRO_ID = $(this).attr('data-id');
+                var title = $(`td[data-title='${PRO_ID}']`).text();
+                var subtitle = $(`td[data-subtitle='${PRO_ID}']`).text();
+                var price = $(`td[data-price='${PRO_ID}']`).text();
+                $('#TitleED').val(title);
+                $('#SubtitleED').val(subtitle);
+                $('#PriceED').val(Number(price));
+                $('#inputEdit').val(PRO_ID);
+            });
+
+
+
+
+            $('#btnEdit').on('click', function () {
+                var fileInput = $('#ImageED').prop('files')[0];
+                var cate = $('#CAT_IDED').val();
+                var title = $('#TitleED').val();
+                var subtitle = $('#SubtitleED').val();
+                var price = $('#PriceED').val();
+                if (cate == "" || title == "" || subtitle == "" || price == "") {
+                    alert("Data must not null");
+                    return 0;
+                }
+                var formData = new FormData();
+                formData.append('ID', $('#inputEdit').val());
+                formData.append('Image', fileInput);
+                formData.append('Title', title);
+                formData.append('Subtitle', subtitle);
+                formData.append('CATID', cate);
+                formData.append('Price', price);
+                formData.append('Namecat', $('#CAT_IDED option:selected').text());
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Product?handler=EditProduct`,
+                    type: 'POST',
+                    contentType: false,
+                    processData: false,
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: formData,
+                    success: function (res) {
+                        $('#ImageED').val("");
+                        $('#TitleED').val("");
+                        $('#SubtitleED').val("");
+                        $('#PriceED').val("");
+                        console.log(res);
+                        var row = $(`tr[data-id="${res.product.prO_ID}"]`);
+                        row.find('td:eq(1)').text(res.product.image);
+                        row.find('td:eq(2)').text(res.product.title);
+                        row.find('td:eq(3)').text(res.product.subtitle);
+                        row.find('td:eq(4)').text(res.namecat);
+                        row.find('td:eq(5)').text(res.product.price);
+                        $("#Edit").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+        });
+    </script>
+}

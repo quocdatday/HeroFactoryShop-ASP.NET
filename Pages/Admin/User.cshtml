@@ -1,0 +1,190 @@
+﻿@page
+@model ShopOnline.Pages.Admin.UserModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "User";
+}
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">User <small class="text-muted">list</small></h3>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="Add()"><i class="ti ti-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>User name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        @* <th>Role</th> *@
+                        @* <th>Address</th> *@
+                        @* <th>Created Date</th> *@
+                        <th style="width: 20px"></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.User == null || !Model.Users.Any())
+                    {
+                        <tr>
+                            <td colspan="8" class="text-center">
+                                This have no data
+                            </td>
+                        </tr>
+                    }else{
+                        foreach (var user in Model.Users)
+                        {
+                            <tr data-id="@user.Id">
+                                <td class="text-center">@user.Id</td>
+                                <td>@user.UserName</td>
+                                <td>@user.Email</td>
+                                <td>@user.PhoneNumber</td>
+                                @* <td>@user.I</td> *@
+                                @* <td>@user.add</td> *@
+                                @* <td>@user.cre</td> *@
+                                <td class="text-nowrap">
+                                    <button type="button" ><i class="ti ti-edit"></i></button>
+                                    <button data-group="xax" data-id="@user.Id" type="button" class="link-danger" onclick="Delete(@user.Id)"><i class="ti ti-trash"></i></button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+
+@section Add{
+    <div id="Add" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p id="UserAddorEdit" class="mb-4 bg-light text-dark p-3 rounded-top">Add</p>
+                <form id="registerForm" asp-page="/admin/user" asp-route-returnUrl="/admin/user" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.FirstName" class="form-control" placeholder="FirstName" />
+                        <label asp-for="Input.FirstName">First Name</label>
+                        <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.LastName" class="form-control" placeholder="LastName" />
+                        <label asp-for="Input.LastName">Last Name</label>
+                        <span asp-validation-for="Input.LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" placeholder="name@example.com" />
+                        <label asp-for="Input.Email">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" placeholder="password" />
+                        <label asp-for="Input.Password">Password</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="password" />
+                        <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.PhoneNumber" class="form-control" placeholder="PhoneNumber" />
+                        <label asp-for="Input.PhoneNumber">Phone Number</label>
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Address" class="form-control" placeholder="Address" />
+                        <label asp-for="Input.Address">Address</label>
+                        <span asp-validation-for="Input.Address" class="text-danger"></span>
+                    </div>
+                    <div class="w-100 p-3 text-center">
+                        <button id="registerSubmit" type="submit" class="btn btn-lg btn-special me-2">Register</button>
+                        <a class="btn btn-lg btn-special" href="/">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+@section Edit {
+    <div id="Edit" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p id="UserAddorEdit" class="mb-4 bg-light text-dark p-3 rounded-top">Add</p>
+                <div>
+                    <input id="inputEdit" type="text" name="x" value="" hidden />
+                    <div class="row mb-3">
+                        <label for="UserName" class="col-3">UserName</label>
+                        <input type="text" class=" col-6" id="UserName" name="UserName" />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Password" class="col-3">Password</label>
+                        <input type="password" class=" col-6" id="Password" name="Password" />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="ConfirmPassword" class="col-3">Confirm Password</label>
+                        <input type="password" class=" col-6" id="ConfirmPassword" name="ConfirmPassword" />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Email" class="col-3">Email</label>
+                        <input type="email" class=" col-6" id="Email" name="Email" />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Phone" class="col-3">Phone</label>
+                        <input type="text" class=" col-6" id="Phone" name="Phone" />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Address" class="col-3">Address</label>
+                        <input type="text" class=" col-6" id="Address" name="Address" />
+                    </div>
+                    <div>
+                        <button id="btnAdd" type="button" class="btn btn-primary me-2">Add</button>
+                        <button type="button" onclick="Add()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Delete{
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="User" hidden/>
+                <input name="hidDlt" id="inputDlt" value="" hidden/>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button id="close" type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(`button[data-group='xax'`).on('click', function () {
+                Delete($(this).attr('data-id'));
+            });
+        });
+    </script>
+}

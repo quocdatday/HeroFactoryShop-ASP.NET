@@ -1,0 +1,94 @@
+﻿@page
+@model ShopOnline.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<input id="IndexQuantity" type="number" value="@Model.quantity" hidden/>
+<!-- Hero Start -->
+<div class="container-fluid hero-header mt-0 mb-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h3 class="fw-light text-white animated slideInRight">Natural & Organic</h3>
+                <h1 class="display-4 text-white animated slideInRight">Hair <span class="highlight">Shampoo</span> For Healthy Hair</h1>
+                <p class="text-white mb-4 animated slideInRight">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Etiam feugiat rutrum lectus, sed auctor ex malesuada id. Orci varius natoque penatibus et
+                    magnis dis parturient montes.
+                </p>
+                <a href="" class="btn btn-special py-2 px-4 me-3 animated slideInRight">Shop Now</a>
+                <a href="" class="btn btn-special py-2 px-4 animated slideInRight">Contact Us</a>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img class="img-fluid animated pulse infinite" src="~/img/special.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Feature Start -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                <div class="feature-item position-relative text-center p-3" style="background-color: #ff3d33;">
+                    <div class="border py-5 px-3">
+                        <i class="fa fa-leaf fa-3x text-dark mb-4"></i>
+                        <h5 class="text-white mb-0">100% Natural</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                <div class="feature-item position-relative text-center p-3" style="background-color: #feae01;">
+                    <div class="border py-5 px-3">
+                        <i class="fa fa-tint-slash fa-3x text-dark mb-4"></i>
+                        <h5 class="text-white mb-0">Anti Hair Fall</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                <div class="feature-item position-relative text-center p-3" style="background-color: #41ac39;">
+                    <div class="border py-5 px-3">
+                        <i class="fa fa-times fa-3x text-dark mb-4"></i>
+                        <h5 class="text-white mb-0">Hypoallergenic</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Feature End -->
+<!-- Deal Start -->
+<div class="container-fluid my-5 py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <img class="img-fluid animated pulse infinite" src="~/img/GoodDeal.png">
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="text-center p-4">
+                    <div class="backgroundX p-4">
+                        <p class="mb-2 text-white">Natural & Organic Shampoo</p>
+                        <h2 class="fw-bold text-uppercase text-white mb-4">Deals of the Day</h2>
+                        <h1 class="display-4 highlight mb-4">$99.99</h1>
+                        <h5 class="text-white">Fresh Organic Shampoo</h5>
+                        <p class="mb-4 text-warning">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Etiam feugiat rutrum lectus sed auctor.
+                        </p>
+                        <a class="btn btn-special py-2 px-4" href="">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Deal End -->
+@section Scripts {
+    <script>
+        $(document).ready(() => {
+            // alert($("#IndexQuantity").val());
+        });
+    </script>
+}
+

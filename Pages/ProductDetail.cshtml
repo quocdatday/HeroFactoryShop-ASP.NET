@@ -1,0 +1,191 @@
+﻿@page 
+@model ShopOnline.Pages.ProductDetailModel
+@{
+    ViewData["Title"] = "Product";
+}
+<div class="container mt-5 pt-5">
+    @if(Model.Product != null)
+    {
+        <input id="nameUrl" type="text" value="@Model.Product.Title" hidden/>
+        <input id="idUrl" type="text" value="@Model.Product.PRO_ID" hidden />
+        <!---->
+        <div id="sidebar" class="sidebar">
+            <div id="CardProduct" class="card" style="width: 100%;">
+                <img src="~/img/products/@Model.Product.Image" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-white">@Model.Product.Title</h5>
+                    <p class="card-text">@Model.Product.Subtitle</p>
+                </div>
+                <ul class="list-group list-group-flush" style="background: transparent">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-6">Price:</div>
+                            <!--PRICE-->
+                            <input id="Price" type="number" value="@Model.Product.Price" hidden/>
+                            <!--PRICE-->
+                            <div id="FakePrice" class="col-6 text-end">@Model.Product?.Price.ToString("#.##")</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-6">Category:</div>
+                            <div class="col-6 text-end">@(Model.Product?.Category?.Name ?? "Null")</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-6">Rate:</div>
+                            @if (Model.Reviews != null && Model.Reviews.Any())
+                            {
+                                var count = 0;
+                                double rate = 0;
+                                foreach (var rv in Model.Reviews)
+                                {
+                                    count += 1;
+                                    rate += rv.Rate;
+                                }
+                                <div class="col-6 text-end">
+                                    @(rate / count)
+                                </div>
+                            }
+                        </div>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <div class="row mb-3 justify-content-between align-content-center px-1">
+                        <div class="col-2 p-0 text-center align-self-center">
+                            <button onclick="Plus(-1)" class="btn-special bi bi-dash"></button>
+                        </div>
+                        <div class="col-8 h-100 p-0 align-self-center">
+                            <!--QUANTITY-->
+                            <input id="Quantity" type="number" value="1" hidden/>
+                            <!--QUANTITY-->
+                            <p id="FakeQuantity" class="m-0 text-center bg-light py-1 text-dark">1</p>
+                        </div>
+                        <div class="col-2 p-0 text-center align-self-center">
+                            <button onclick="Plus(1)" class="btn-special bi bi-plus"></button>
+                        </div>
+                    </div>
+                    <div class="row px-1">
+                        <div class="col-12 p-0">
+                            <!--PRO_ID-->
+                            <input id="PRO_ID" type="number" value="@Model.Product!.PRO_ID" hidden/>
+                            <!--PRO_ID-->
+                            <button id="AddToCart" class="btn-special w-100 py-2 rounded">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <!--RIGHT START-->
+        <div id="content" class="content">
+            <!--COMMENT START-->
+            @if(Model.Reviews != null && Model.Reviews.Any())
+            {
+                foreach (var comm in Model.Reviews)
+                {
+                    <div class="row mb-5 comment">
+                        <div id="balls" class="d-flex flex-row">
+                            <div class="ball" style="background-color: #ff3d33;"></div>
+                            <div class="ball" style="background-color: #feae01;"></div>
+                            <div class="ball" style="background-color: #41ac39;"></div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <p class="text-center text-secondary mt-2">@comm.CreatedBy</p>
+                        </div>
+                        <div class="col-12">
+                            <p class="text-white px-3">
+                                @comm.Comment
+                        </div>
+                        <div class="col-12 bg-secondary mt-auto py-2 px-4">
+                            <div class="row">
+                                <div class="col-4 me-auto">
+                                    @for(int i = 0; i < comm.Rate; i++){
+                                        <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                                    }
+                                </div>
+                                <div class="col-4 text-white text-end">@comm.CreatedDate</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="row mb-5 comment">
+                    <div id="balls" class="d-flex flex-row">
+                        <div class="ball" style="background-color: #ff3d33;"></div>
+                        <div class="ball" style="background-color: #feae01;"></div>
+                        <div class="ball" style="background-color: #41ac39;"></div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p class="text-center text-secondary mt-2"></p>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-white px-3 text-center">
+                            Chưa có đánh giá !
+                    </div>
+                    <div class="col-12 bg-secondary mt-auto py-2 px-4">
+                        <div class="row">
+                            <div class="col-4 me-auto">
+                                <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                                <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                                <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                                <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                                <i class="bi bi-star-fill" style="color: #feae01;"></i>
+                            </div>
+                            <div class="col-4 text-white text-end"></div>
+                        </div>
+                    </div>
+                </div>
+            }
+            <!--COMMENT END-->
+        </div>
+        <!--RIGHT END-->
+    }else
+    {
+        RedirectToPage("/Error");
+    }
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(() => {
+            var UrlName = $('#nameUrl').val();
+            var UrlId = $('#idUrl').val();
+            history.replaceState(null, '', `/ProductDetail/Information/${UrlName}/${UrlId}`);
+
+            var sidebarH = $("#sidebar").height();
+            $("#content").css("margin-top", "-" + sidebarH + "px");
+            $("#AddToCart").on("click", function () {
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/ProductDetail?handler=AddToCart`,
+                    type: `POST`,
+                    contentType: `application/json`,
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        PRO_ID: $('#PRO_ID').val(),
+                        Quantity: $('#Quantity').val(),
+                        Price: $("#Price").val(),
+                    }),
+                    success: function (res) {
+                        alert("success: " + res.quantity);
+                        localStorage.setItem("quantity", res.quantity);
+                        startLoad();
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+        });
+    </script>
+}

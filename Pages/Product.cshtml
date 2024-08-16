@@ -1,0 +1,121 @@
+﻿@page
+@model ShopOnline.Pages.ProductModel
+@{
+    ViewData["Title"] = "Our item";
+}
+<!-- Hero Start -->
+    <div class="container-fluid hero-header">
+    <div class="container text-center">
+        <h1 class="display-4 text-white mb-3 animated slideInDown">Products</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center mb-0 animated slideInDown">
+                <li class="breadcrumb-item"><a class="text-white" href="/">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Products</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Hero End -->
+<!-- Product Start -->
+<div class="container-fluid pt-0 pb-5">
+    <div class="container">
+        <div class="mx-auto text-white text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3 text-white"><span class="highlight">Our Natural</span> Hair Products</h1>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet, erat non malesuada consequat, nibh erat tempus risus.</p>
+        </div>
+        <div class="row g-4">
+            @if (Model.Categories != null && Model.Categories.Any())
+            {
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item me-2" role="presentation">
+                        <button class="btn btn-special py-2 px-4 nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                    </li>
+                @foreach (var cat in Model.Categories)
+                {
+                    <li class="nav-item me-2" role="presentation">
+                            <button class="btn btn-special py-2 px-4 nav-link" id="pills-@cat.Name-tab" data-bs-toggle="pill" data-bs-target="#pills-@cat.Name" type="button" role="tab" aria-controls="pills-@cat.Name" aria-selected="false">@cat.Name</button>
+                    </li>
+                }
+                </ul>
+            }
+        </div>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <div class="row g-4">
+                    @if (Model.TopProduct != null && Model.TopProduct.Any())
+                    {
+                        foreach (var product in Model.TopProduct)
+                        {
+                            <form method="get" asp-page="/ProductDetail" asp-page-handler="Product" class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                                <input type="text" name="ProID" value="@product.PRO_ID" hidden />
+                                <div class="product-item text-center bor-box h-100 p-4" style="display: block">
+                                    <img class="img-fluid mb-4 h-50" src="~/img/products/@product.Image" alt="" />
+                                    <div class="mb-2">
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="fa fa-star text-warning"></small>
+                                        <small class="text-danger">(99)</small>
+                                    </div>
+                                    <p class="h6 d-inline-block mb-2 text-white">@product.Title</p>
+                                    <h5 class="text-white mb-3">$@product.Price.ToString("#.##")</h5>
+                                    <button class="btn btn-special px-3 mt-auto" type="submit">Add To Cart</button>
+                                </div>
+                            </form>
+                        }
+                    }
+                </div>
+            </div>
+            @if(Model.Categories != null && Model.Categories.Any())
+            {
+                @foreach (var cat in Model.Categories)
+                {
+                    <div class="tab-pane fade show" id="pills-@cat.Name" role="tabpanel" aria-labelledby="pills-@cat.Name-tab">
+                        <div class="row g-4">
+                            @if (cat.Products != null && cat.Products.Any())
+                            {
+                                foreach (var product in cat.Products)
+                                {
+                                    @* <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s"> *@
+                                        <form method="get" asp-page="/ProductDetail" asp-page-handler="Product" class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                                            <input type="text" name="ProID" value="@product.PRO_ID" hidden />
+                                            <div class="product-item text-center bor-box h-100 p-4" style="display: block">
+                                            <img class="img-fluid mb-4 h-50" src="~/img/products/@product.Image" alt="" />
+                                                <div class="mb-2">
+                                                    <small class="fa fa-star text-warning"></small>
+                                                    <small class="fa fa-star text-warning"></small>
+                                                    <small class="fa fa-star text-warning"></small>
+                                                    <small class="fa fa-star text-warning"></small>
+                                                    <small class="fa fa-star text-warning"></small>
+                                                    <small class="text-danger">(99)</small>
+                                                </div>
+                                                <p class="h6 d-inline-block mb-2 text-white">@product.Title</p>
+                                                <h5 class="text-white mb-3">$@product.Price.ToString("#.##")</h5>
+                                                <button class="btn btn-special px-3 mt-auto" type="submit">Add To Cart</button>
+                                            </div>
+                                        </form>
+                                    @* </div> *@
+                                }
+                            }
+                            else
+                            {
+
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                
+            }
+        </div>
+    </div>
+</div>
+<!-- Product End -->
+
+@* <div class="col-12 text-center">
+                    <div class="btn btn-special py-2 px-4">Load More Products</div>
+                </div> *@

@@ -1,0 +1,237 @@
+﻿@page
+@model ShopOnline.Pages.CheckOutModel
+@{
+    Layout = "";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HERO FACTORY - @ViewData["Title"]</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" asp-append-version="true" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" asp-append-version="true" rel="stylesheet">
+</head>
+
+<body>
+    @Html.AntiForgeryToken()
+    <div id="mainBG" style="min-height: 100vh">
+        <div class="fixed-top top-50 translate-middle-y container">
+            <div class="row justify-content-center">
+                <div class="col-12 shadow-b p-5">
+                    <!--CONTENT START-->
+                    <div class="row">
+
+
+                        <!-- START MAIN LEFT -->
+                        <div class="col-12 col-lg-8 d-flex flex-column">
+                            <form asp-asp-page="/CheckOut" asp-page-handler="CheckOut">
+                                <div class="px-3 pb-3 bg-white rounded d-flex flex-column" style="height: 700px;">
+                                    <div class="row pt-3 mx-2">
+                                        <div class="col-12">
+                                            <h2 class="m-0">Check Out</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row py-3 mx-2">
+                                        <div class="col-12 mb-3">
+                                            <label asp-for="Or.Name" class="form-label">Name</label>
+                                            <input asp-for="Or.Name" type="text" class="form-control border border-1 border-dark">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label asp-for="Or.Email" class="form-label">Email</label>
+                                            <input asp-for="Or.Email" type="Email" class="form-control border border-1 border-dark">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label asp-for="Or.Phone" class="form-label">Phone</label>
+                                            <input asp-for="Or.Phone" type="text" class="form-control border border-1 border-dark">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label asp-for="Or.Address" class="form-label">Address</label>
+                                            <input asp-for="Or.Address" class="form-control border border-1 border-dark">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label asp-for="Or.Note" class="form-label">Note</label>
+                                            <textarea asp-for="Or.Note" name="Or.Note" class="form-control border border-1 border-dark" rows="4"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-auto">
+                                        <div class="col-6">
+                                            <a asp-page="/Cart" class="text-dark">
+                                                <i class="bi bi-arrow-left"></i>
+                                                Shopping Cart
+                                            </a>
+                                        </div>
+                                        <div class="col-6 text-end">
+                                            <button type="submit" class="btn btn-special btn-lg">Buy</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- END MAIN LEFT -->
+                        <!-- START MAIN RIGHT -->
+                        <div class="col-12 col-lg-4">
+                            <div class="px-3 bg-white rounded d-flex flex-column" style="height: 700px;">
+                                <div class="row py-3 mx-2 border-bottom border-1 border-secondary">
+                                    <div class="col-12">
+                                        <h2 class="m-0">Summary</h2>
+                                    </div>
+                                </div>
+                                <div class="row py-3 mx-2 border-bottom border-1 border-secondary">
+                                    <div class="col-12">
+                                        <h6>Payment methhod:</h6>
+                                    </div>
+                                    <div class="col-12">
+                                        <select class="w-100">
+                                            <option value="">COD (default)</option>
+                                            @* <option value="">Online (Updating)</option> *@
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row py-3 mx-2">
+                                    @if(Model.Cart != null)
+                                    {
+                                        if (Model.Cart.CartDetails != null && Model.Cart.CartDetails.Any())
+                                        {
+                                            int items = 0;
+                                            decimal total = 0;
+                                            foreach (var cdt in Model.Cart.CartDetails)
+                                            {
+                                                items += cdt.Quantity;
+                                                total += cdt.Price;
+                                            }
+                                            <div class="col-12 d-flex mb-3">
+                                                <span>Total items:</span>
+                                                <span id="TotalItems" class="ms-auto">@items</span>
+                                            </div>
+                                            <div class="col-12 d-flex mb-3">
+                                                <span class="me-auto">Total price:</span>
+                                                <span>$</span><span id="TotalPrice" class="">@total.ToString("#.#0")</span>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                                @* <div class="row py-3 mx-2 mt-auto">
+                                    <div class="col-12">
+                                        <button type="button" class="btn btn-special btn-lg w-100">Buy now</button>
+                                    </div>
+                                </div> *@
+                            </div>
+                        </div>
+                        <!-- END MAIN RIGHT -->
+
+
+                    </div>
+                    <!--CONTENT END  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/index.js" asp-append-version="true"></script>
+    @* <script>
+            $(document).ready(function () {
+                $(`i[data-group='DelCdt']`).on('click', function () {
+                    // alert($(this).attr('data-id'));
+                    var id = $(this).attr('data-id');
+                    var OldItems = Number($('#TotalItems').text());
+                    var OldPrice = Number($('#TotalPrice').text());
+                    var token = $('input[name="__RequestVerificationToken"]').val();
+                    $.ajax({
+                        url: `/Cart?handler=DltCdt`,
+                        type: 'POST',
+                        contentType: 'application/json',
+                        headers: {
+                            RequestVerificationToken: token,
+                        },
+                        data: JSON.stringify({
+                            CARD_ID: Number(id),
+                        }),
+                        success: function (res) {
+                            console.table(res);
+                            $(`div[data-block='${id}']`).remove();
+                            $('#TotalItems').text(OldItems - res.items);
+                            $('#TotalPrice').text((OldPrice - res.prices).toFixed(2));
+                            localStorage.setItem("quantity", OldItems - res.items);
+                            if (res.check == 0) {
+                                $('#ContentCart').append(
+                                    `
+                                            <div class="col-12 mt-3 text-center">
+                                                <p class="text-white">Get some product !</p>
+                                            </div>
+                                        `);
+                            }
+                        },
+                        error: function (er) { console.log(er); }
+                    });
+                });
+
+                $(`i[data-group='UpdateQuant']`).on('click', function () {
+                    var id = $(this).attr('data-id');
+                    var val = $(this).attr('data-value');
+                    var quantt = $(`span[data-quantity='${id}']`).text();
+                    if (Number(quantt) == 1 && val == -1) {
+                        return false;
+                    }
+                    var token = $('input[name="__RequestVerificationToken"]').val();
+                    $.ajax({
+                        url: '/Cart?handler=UpCdt',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        headers: {
+                            RequestVerificationToken: token,
+                        },
+                        data: JSON.stringify({
+                            CARD_ID: id,
+                            Num: val,
+                        }),
+                        success: function (res) {
+                            $(`span[data-quantity='${id}']`).text(res.quantity);
+                            $(`p[data-price='${id}']`).text(res.price.toFixed(2));
+                            $('#TotalItems').text(res.items);
+                            $('#TotalPrice').text(res.totals.toFixed(2));
+                            localStorage.setItem("quantity", res.items);
+                        },
+                        error: function (er) {
+
+                        }
+                    });
+                });
+
+
+            });
+        </script> *@
+</body>
+</html>

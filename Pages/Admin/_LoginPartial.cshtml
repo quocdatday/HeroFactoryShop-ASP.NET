@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ShopOnline.Models
+
+@inject SignInManager<AuthUser> SignInManager
+@inject UserManager<AuthUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    if (User.IsInRole("admin"))
+    {
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle fw-bold text-uppercase" data-bs-toggle="dropdown">
+                <span class="highlight">Hi @UserManager.GetUserName(User)</span>
+            </a>
+            <div class="dropdown-menu bg-light mt-2">
+                <a href="/admin/" class="dropdown-item">Admin Page</a>
+                @* <a asp-area="Identity" asp-page="/Account/Manage/Index" class="dropdown-item">Profile</a> *@
+                <a asp-area="Identity" asp-page="/Account/Logout" class="dropdown-item">Logout</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle fw-bold text-uppercase" data-bs-toggle="dropdown">
+                <span class="highlight">Hi @UserManager.GetUserName(User)</span>
+            </a>
+            <div class="dropdown-menu bg-light mt-2">
+                <a asp-area="Identity" asp-page="/Account/Manage/Index" class="dropdown-item">Profile</a>
+                <a asp-area="Identity" asp-page="/Account/Logout" class="dropdown-item">Logout</a>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <a class="nav-item nav-link fw-bold text-uppercase" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+}

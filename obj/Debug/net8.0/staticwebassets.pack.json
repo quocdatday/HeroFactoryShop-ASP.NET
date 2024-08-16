@@ -1,0 +1,3293 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShopOnline.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShopOnline.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.woff2"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\icons\\tabler-icons\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\icons\\tabler-icons\\tabler-icons.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\css\\styles.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\styles.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\backgrounds\\rocket.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\backgrounds\\rocket.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\logos\\dark-logo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logos\\dark-logo.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\logos\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logos\\favicon.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\products\\s1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\products\\s1.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\products\\s11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\products\\s11.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\products\\s4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\products\\s4.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\products\\s5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\products\\s5.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\products\\s7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\products\\s7.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\images\\profile\\user-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\profile\\user-1.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\js\\admin.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\admin.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\js\\ajaxForm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ajaxForm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\js\\app.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\app.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.amd.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.common.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.common.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.esm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ar.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ca.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\cs.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\de.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\de.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\el.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\el.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\en.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\en.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\es.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\es.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\et.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\et.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fa.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fi.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\fr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\he.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\he.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hi.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hu.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\hy.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\id.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\id.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\it.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\it.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ja.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ka.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ko.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\lt.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\lv.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\nb.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\nl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pt-br.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\pt.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\rs.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ru.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\se.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\se.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sk.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\sq.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\th.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\th.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\tr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\ua.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\dist\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\dist\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\package.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\package.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\apexcharts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\apexcharts.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-camera.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-camera.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-home.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-home.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-menu.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-menu.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-minus-square.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-minus.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-minus.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-pan-hand.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-pan.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-pan.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-plus-square.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-plus.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-plus.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-refresh.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-refresh.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-reset.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-reset.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-select.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-select.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-select1.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-select1.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-in.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom-out.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\assets\\ico-zoom.svg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Bar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Bar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\BarStacked.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\BarStacked.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\BoxCandleStick.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\HeatMap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\HeatMap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Line.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Line.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Pie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Pie.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Radar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Radar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Radial.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Radial.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\RangeBar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\RangeBar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Scatter.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Scatter.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\Treemap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\Treemap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\DataLabels.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\bar\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\circle\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\line\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\charts\\common\\treemap\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\libs\\Treemap-squared.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\libs\\Treemap-squared.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ar.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ca.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\cs.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\de.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\de.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\el.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\el.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\en.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\en.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\es.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\es.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\et.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\et.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\fa.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\fi.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\fr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\he.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\he.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\hi.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\hr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\hu.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\hy.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\id.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\id.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\it.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\it.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ja.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ka.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ko.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\lt.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\lv.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\nb.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\nl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\pl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\pt-br.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\pt.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\rs.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ru.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\se.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\se.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\sk.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\sl.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\sq.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\th.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\th.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\tr.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\ua.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Animations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Animations.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Base.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Base.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Core.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Core.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\CoreUtils.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\CoreUtils.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Crosshairs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Crosshairs.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Data.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\DataLabels.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\DataLabels.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Events.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Events.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Exports.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Exports.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Fill.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Fill.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Filters.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Filters.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Formatters.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Formatters.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Graphics.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Graphics.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Markers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Markers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Range.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Range.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Responsive.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Responsive.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Scales.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Scales.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Series.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Series.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Theme.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Theme.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\TimeScale.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\TimeScale.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\TitleSubtitle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\Toolbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\Toolbar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\ZoomPanSelection.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Annotations.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\PointsAnnotations.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\XAxisAnnotations.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\annotations\\YAxisAnnotations.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\Axes.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\Axes.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\AxesUtils.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\Grid.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\Grid.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\XAxis.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\axes\\YAxis.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Dimensions.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Grid.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\XAxis.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\dimensions\\YAxis.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Destroy.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\InitCtxVariables.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\Localization.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\helpers\\UpdateHelpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\legend\\Helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\legend\\Legend.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\legend\\Legend.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Config.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Defaults.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Globals.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Globals.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Options.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\settings\\Options.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\AxesTooltip.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Intersect.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Labels.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Marker.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Position.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Tooltip.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\modules\\tooltip\\Utils.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\svgjs\\svg.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\svgjs\\svg.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\utils\\DateTime.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\utils\\DateTime.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\utils\\Resize.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\utils\\Resize.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\src\\utils\\Utils.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\src\\utils\\Utils.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\apexcharts\\types\\apexcharts.d.ts",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\apexcharts\\types\\apexcharts.d.ts"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\alert.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\alert.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\alert.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\base-component.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\base-component.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\base-component.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\button.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\button.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\button.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\button.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\carousel.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\carousel.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\carousel.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\collapse.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\collapse.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\collapse.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\data.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\event-handler.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\manipulator.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dom\\selector-engine.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\dropdown.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\modal.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\modal.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\modal.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\offcanvas.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\popover.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\popover.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\popover.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\scrollspy.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\tab.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\tab.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\tab.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\toast.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\toast.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\toast.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\tooltip.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\backdrop.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\component-functions.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\config.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\focustrap.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\index.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\sanitizer.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\scrollbar.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\swipe.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\dist\\util\\template-factory.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\index.esm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\index.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\index.umd.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\index.umd.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\alert.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\alert.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\base-component.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\base-component.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\button.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\button.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\carousel.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\carousel.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\collapse.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\collapse.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\data.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\event-handler.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\event-handler.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\manipulator.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\manipulator.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\dom\\selector-engine.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\dropdown.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\dropdown.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\modal.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\modal.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\offcanvas.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\offcanvas.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\popover.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\popover.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\scrollspy.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\scrollspy.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\tab.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\toast.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\toast.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\tooltip.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\tooltip.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\backdrop.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\backdrop.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\component-functions.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\component-functions.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\config.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\focustrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\focustrap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\index.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\index.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\sanitizer.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\sanitizer.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\scrollbar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\swipe.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\swipe.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\template-factory.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\src\\util\\template-factory.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\browsers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\browsers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\helpers\\fixture.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\bundle-modularity.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\bundle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\bundle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\index.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\index.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle-modularity.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\integration\\rollup.bundle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\karma.conf.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\karma.conf.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\alert.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\base-component.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\button.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\carousel.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\collapse.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\data.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\event-handler.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\manipulator.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dom\\selector-engine.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\dropdown.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\jquery.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\modal.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\offcanvas.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\popover.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\scrollspy.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\tab.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\toast.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\tooltip.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\backdrop.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\component-functions.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\config.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\focustrap.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\index.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\sanitizer.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\scrollbar.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\swipe.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\unit\\util\\template-factory.spec.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\alert.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\alert.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\button.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\button.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\carousel.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\carousel.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\collapse.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\collapse.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\dropdown.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\modal.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\modal.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\popover.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\popover.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\scrollspy.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\tab.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\tab.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\toast.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\toast.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\js\\tests\\visual\\tooltip.html"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\package.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\package.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_maps.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_maps.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_placeholders.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_variables-dark.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_variables-dark.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_color-mode.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\AUTHORS.txt",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\AUTHORS.txt"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\bower.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\bower.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\core.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\core.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\external\\sizzle\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\external\\sizzle\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\external\\sizzle\\dist\\sizzle.min.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\package.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\package.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\jsonp.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\jsonp.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\load.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\load.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\parseXML.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\parseXML.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\script.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\script.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\location.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\location.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\nonce.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\nonce.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\rquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\var\\rquery.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\ajax\\xhr.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\ajax\\xhr.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes\\attr.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes\\attr.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes\\classes.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes\\classes.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes\\prop.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes\\prop.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\attributes\\val.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\attributes\\val.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\callbacks.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\callbacks.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\DOMEval.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\DOMEval.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\access.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\access.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\camelCase.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\camelCase.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\init.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\init.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\isAttached.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\isAttached.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\nodeName.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\nodeName.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\parseHTML.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\parseHTML.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\ready-no-deferred.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\ready-no-deferred.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\ready.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\ready.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\readyException.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\readyException.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\stripAndCollapse.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\stripAndCollapse.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\toType.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\toType.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\core\\var\\rsingleTag.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\core\\var\\rsingleTag.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\addGetHookIf.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\addGetHookIf.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\adjustCSS.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\adjustCSS.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\curCSS.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\curCSS.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\finalPropName.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\finalPropName.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\hiddenVisibleSelectors.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\showHide.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\showHide.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\cssExpand.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\cssExpand.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\getStyles.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\getStyles.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\isHiddenWithinTree.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\rboxStyle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\rboxStyle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\rnumnonpx.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\rnumnonpx.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\css\\var\\swap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\css\\var\\swap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\data.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\data\\Data.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\data\\Data.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\data\\var\\acceptData.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\data\\var\\acceptData.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\data\\var\\dataPriv.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\data\\var\\dataPriv.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\data\\var\\dataUser.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\data\\var\\dataUser.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\deferred.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\deferred.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\deferred\\exceptionHook.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\deferred\\exceptionHook.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\deprecated.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\deprecated.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\dimensions.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\dimensions.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\effects.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\effects.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\effects\\Tween.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\effects\\Tween.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\effects\\animatedSelector.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\effects\\animatedSelector.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event\\ajax.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event\\ajax.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event\\alias.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event\\alias.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event\\focusin.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event\\focusin.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\event\\trigger.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\event\\trigger.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\exports\\amd.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\exports\\amd.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\exports\\global.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\exports\\global.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\jquery.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\_evalUrl.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\_evalUrl.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\buildFragment.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\buildFragment.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\getAll.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\getAll.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\setGlobalEval.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\setGlobalEval.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\var\\rscriptType.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\var\\rtagName.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\var\\rtagName.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\manipulation\\wrapMap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\manipulation\\wrapMap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\offset.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\offset.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\queue.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\queue.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\queue\\delay.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\queue\\delay.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\selector-native.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\selector-native.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\selector-sizzle.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\selector-sizzle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\selector.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\selector.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\serialize.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\serialize.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\traversing.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\traversing.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\traversing\\findFilter.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\traversing\\findFilter.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\dir.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\dir.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\rneedsContext.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\siblings.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\traversing\\var\\siblings.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\ObjectFunctionString.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\ObjectFunctionString.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\arr.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\arr.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\class2type.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\class2type.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\concat.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\concat.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\document.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\document.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\documentElement.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\documentElement.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\fnToString.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\fnToString.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\getProto.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\getProto.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\hasOwn.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\hasOwn.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\indexOf.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\indexOf.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\isFunction.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\isFunction.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\isWindow.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\isWindow.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\pnum.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\pnum.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\push.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\push.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\rcheckableType.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\rcheckableType.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\rcssNum.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\rcssNum.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\rnothtmlwhite.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\rnothtmlwhite.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\slice.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\slice.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\support.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\support.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\var\\toString.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\var\\toString.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\jquery\\src\\wrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\jquery\\src\\wrap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\LICENSE",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\README.md",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\README.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar-core.esm.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.d.ts",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.d.ts"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.esm.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.esm.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.esm.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\dist\\simplebar.umd.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\dist\\simplebar.umd.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\package.json",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\package.json"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\src\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\src\\helpers.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\src\\index.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\src\\index.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\src\\scrollbar-width.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\src\\scrollbar-width.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\src\\simplebar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\src\\simplebar.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\admin\\assets\\libs\\simplebar\\src\\simplebar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\GoodDeal.png",
+      "PackagePath": "staticwebassets\\img\\GoodDeal.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\background.png",
+      "PackagePath": "staticwebassets\\img\\background.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\banners\\backgroundWeb-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\banners\\backgroundWeb-removebg-preview.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\banners\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\banners\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\banners\\special.png",
+      "PackagePath": "staticwebassets\\img\\banners\\special.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Breez-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Breez-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Evo-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Evo-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Fumo-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Fumo-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Head.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Head.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Nex-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Nex-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Nex-3.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Nex-3.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Rocka-3.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Rocka-3.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Stormer-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Stormer-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Stormer-3.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Stormer-3.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\products\\Surge-2.0.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\Surge-2.0.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\special.png",
+      "PackagePath": "staticwebassets\\img\\special.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\BackEnd\\ShopOnline\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ShopOnline.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ShopOnline.props",
+      "PackagePath": "build\\ShopOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopOnline.props",
+      "PackagePath": "buildMultiTargeting\\ShopOnline.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ShopOnline.props",
+      "PackagePath": "buildTransitive\\ShopOnline.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

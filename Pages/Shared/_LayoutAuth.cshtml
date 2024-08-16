@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" asp-append-version="true">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet" asp-append-version="true">
+</head>
+<body>
+
+    <!-- START CONTENT -->
+    <div class="page-wrapper"
+         id="main-wrapper"
+         data-layout="vertical"
+         data-navbarbg="skin6"
+         data-sidebartype="full"
+         data-sidebar-position="fixed"
+         data-header-position="fixed">
+        <div id="mainBG" class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center w-100">
+                <div class="row justify-content-center w-100 my-5">
+                    <div class="col-auto">
+                        <div class="card mb-0 backgroundX">
+                            <div class="card-body py-3" style="box-shadow: 0 0 1em #5a29e480 !important;">
+                                <h2 class="text-center highlight my-4 text-uppercase"
+                                    style="text-shadow: 0 0 1em #5a29e480 !important;">
+                                    Hero Factory Shop
+                                </h2>
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+    <script src="~/admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

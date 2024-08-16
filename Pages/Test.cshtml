@@ -1,0 +1,81 @@
+﻿@page
+@model ShopOnline.Pages.TestModel
+@{
+    ViewData["Title"] = "";
+}
+<div class="row w-100 bg-white justify-content-center mb-5">
+    <h2>@Model.SayGoodbye()</h2>
+    <div>
+        <div><label>First name:</label>@Model.FirstName</div>
+        <div><label>Last name:</label>@Model.LastName</div>
+    </div>
+</div>
+<div class="row w-100 bg-white justify-content-center mb-5 p-5 text-center">
+    <div class="col-auto">
+        <h2>@Model.Message</h2>
+        <a href="/Test">This is OnGet request</a>
+        <form method="post" asp-page-handler="">
+            <button type="submit"> this is OnPost request</button>
+        </form>
+    </div>
+</div>
+<div class="row w-100 bg-white justify-content-center mb-5 p-5 text-center">
+    <div class="col-12 text-center">
+        <h1>Multi Form: @Model.testform</h1>
+    </div>
+    <div class="col-3">
+        <form method="post" asp-page-handler="test">
+            <button type="submit">Test</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <form method="post" asp-page-handler="test2">
+            <button type="submit">Test 2</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <form method="post" asp-page-handler="test3">
+            <button type="submit">Test 3</button>
+        </form>
+    </div>
+</div>
+<div class="row w-100 bg-white justify-content-center mb-5 p-5 text-center">
+    <div class="col-12">
+        <h2>@Model.url</h2>
+    </div>
+    <div class="col-12">
+        <h2>@Model.name</h2>
+    </div>
+</div>
+<div class="w-100 bg-dark">
+    <div class="row justify-content-center">
+        <form>
+            <label asp-for="name"></label>
+            <input type="text" asp-for="name" />
+            <span asp-validation-for="name"></span><br />
+            <label asp-for="first"></label>
+            <input type="text" asp-for="first" />
+            <span asp-validation-for="first"></span><br />
+            <label asp-for="last"></label>
+            <input type="text" asp-for="last" />
+            <span asp-validation-for="last"></span><br />
+            <button type="submit">X</button>
+        </form>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+<div class="row w-100 bg-white justify-content-center mb-5 p-5 text-center">
+    <div class="col-12">
+        <form asp-asp-page-handler="DataTest">
+            <button type="button" id="PostClick" @* onclick="test()" *@>In Form</button>
+        </form>
+    </div>
+    <div class="col-12">
+        <p id="demo"></p>
+    </div>
+</div>
+

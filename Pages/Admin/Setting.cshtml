@@ -1,0 +1,230 @@
+﻿@page
+@model ShopOnline.Pages.Admin.SettingModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Setting";
+}
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">Setting <small class="text-muted">list</small></h3>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="Add()"><i class="ti ti-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>Name</th>
+                        <th>Value</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBy</th>
+                        <th style="width: 20px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.Settings != null && Model.Settings.Any()){
+                        foreach (var setting in Model.Settings)
+                        {
+                            <tr data-id="@setting.SET_ID">
+                                <td class="text-center">@setting.SET_ID</td>
+                                <td data-name="@setting.SET_ID">@setting.Name</td>
+                                <td data-value="@setting.SET_ID">@setting.Value</td>
+                                <td >@setting.CreatedDate</td>
+                                <td >@setting.CreatedBy</td>
+                                <td>
+                                    <button type="button" data-group="edit" data-id="@setting.SET_ID"><i class="ti ti-edit"></i></button>
+                                    <button type="button" class="link-danger" onclick="Delete(@setting.SET_ID)"><i class="ti ti-trash"></i></button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center">This have no data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+@section Add {
+    <div id="Add" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Add</p>
+                <div>
+                    <div class="row mb-3">
+                        <label for="Name" class="col-4 text-end">Name:</label>
+                        <input name="Name" id="Name" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="Value" class="col-4 text-end">Value:</label>
+                        <input name="Value" id="Value" type="text" class="col-6 text-start" /> <br />
+                    </div>
+                    <div>
+                        <button id="btnAdd" type="button" class="btn btn-primary me-2">Add</button>
+                        <button type="button" onclick="Add()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Edit {
+    <div id="Edit" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-light text-dark p-3 rounded-top">Edit</p>
+                <div>
+                    <input id="inputEdit" type="text" name="x" value="" hidden/>
+                    <div class="row mb-3">
+                        <label for="NameED" class="col-4 text-end">Name:</label>
+                        <input name="NameED" id="NameED" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div class="row mb-3">
+                        <label for="ValueED" class="col-4 text-end">Value:</label>
+                        <input name="ValueED" id="ValueED" type="text" class="col-6 text-start" /> <br />
+                    </div>
+                    <div>
+                        <button id="btnEdit" type="button" class="btn btn-primary me-2">Save</button>
+                        <button type="button" onclick="Edit()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Delete {
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="Setting" hidden />
+                <input name="hidDlt"  type="text" id="inputDlt" value="" hidden />
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#btnAdd").on('click', function () {
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Setting?handler=AddSetting`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        Name: $('#Name').val(),
+                        Value: $('#Value').val(),
+                    }),
+                    success: function (res) {
+                        $('#Name').val("");
+                        $('#Value').val("");
+                        // $("#tbody").append(
+                        //     `
+                        //             <tr data-id="${res.setting.seT_ID}">
+                        //                 <td class="text-center">${res.setting.seT_ID}</td>
+                        //                 <td data-name="${res.setting.seT_ID}">${res.setting.name}</td>
+                        //                 <td data-value="${res.setting.seT_ID}">${res.setting.value} </td>
+                        //                 <td>${updateDT(res.setting.createdDate)}</td>
+                        //                 <td>${res.setting.createdBy}</td>
+                        //                 <td>
+                        //                     <button type="button" data-group="edit" data-id="${res.setting.seT_ID}"> <i class="ti ti-edit"></i> </button>
+                        //                     <button type="button" class="link-danger" onclick="Delete(${res.setting.seT_ID})"> <i class="ti ti-trash"></i> </button>
+                        //                 </td>
+                        //             </tr>
+                        //         `
+                        // );
+                        var table = $('#example').DataTable();
+                        var x = $('<tr>').attr('data-id', res.setting.seT_ID)
+                            .append(`<td class="text-center">${res.setting.seT_ID}</td>`)
+                            .append(`<td data-name="${res.setting.seT_ID}">${res.setting.name}</td>`)
+                            .append(`<td data-value="${res.setting.seT_ID}">${res.setting.value}</td>`)
+                            .append(`<td>${updateDT(res.setting.createdDate)}</td>`)
+                            .append(`<td>${res.setting.createdBy}</td>`)
+                            .append(`<td>
+                                        <button type="button" data-group="edit" data-id="${res.setting.seT_ID}"><i class="ti ti-edit"></i></button>
+                                        <button type="button" class="link-danger" onclick="Delete(${res.setting.seT_ID})"><i class="ti ti-trash"></i></button>
+                                    </td>`);
+                        table.row.add(x).draw(false);
+                        $("#Add").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        return 0;
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+
+
+            $(`#tbody`).on('click', `button[data-group="edit"]`, function () {
+                Edit();
+                var SET_ID = $(this).attr('data-id');
+                var name = $(`td[data-name='${SET_ID}']`).text();
+                var value = $(`td[data-value='${SET_ID}']`).text();
+                $('#NameED').val(name);
+                $('#ValueED').val(value);
+                $('#inputEdit').val(SET_ID);
+            });
+
+            $('#btnEdit').on('click', function () {
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Setting?handler=EditSetting`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        ID: $('#inputEdit').val(),
+                        Name: $('#NameED').val(),
+                        Value: $('#ValueED').val(),
+                    }),
+                    success: function (res) {
+                        $('#NameED').val("");
+                        $('#ValueED').val("");
+                        var row = $(`tr[data-id="${res.setting.seT_ID}"]`);
+                        row.find('td:eq(1)').text(res.setting.name);
+                        row.find('td:eq(2)').text(res.setting.value);
+                        row.find('td:eq(3)').text(updateDT(res.setting.createdDate));
+                        row.find('td:eq(4)').text(res.setting.createdBy); 
+                        $("#Edit").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        return 0;
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+        });
+    </script>
+}

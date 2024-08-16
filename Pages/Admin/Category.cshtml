@@ -1,0 +1,213 @@
+﻿@page
+@model ShopOnline.Pages.Admin.CategoryModel
+@{
+    Layout = "/Pages/admin/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Category";
+}
+<div class="container-fluid">
+    <div class="card w-100">
+        <div class="card-header">
+            <div class="d-sm-flex d-block align-items-center justify-content-between">
+                <div class="mb-sm-0">
+                    <h3 class="card-title fw-semibold">Category <small class="text-muted">list</small></h3>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="Add()"><i class="ti ti-plus"></i>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <table id="example" class="table table-bordered table-hover pt-3">
+                <thead class="table-primary">
+                    <tr>
+                        <th style="width: 20px">#</th>
+                        <th>Name</th>
+                        <th>CreatedDate</th>
+                        <th>CreatedBy</th>
+                        <th style="width: 20px">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    @if(Model.Categories != null && Model.Categories.Any())
+                    {
+                        foreach (var categories in Model.Categories)
+                        {
+                            <tr data-id="@categories.CAT_ID">
+                               <td class="text-center">@categories.CAT_ID</td>
+                                <td data-name="@categories.CAT_ID">@categories.Name</td>
+                               <td>@categories.CreatedDate</td>
+                               <td>@categories.CreatedBy</td>
+                               <td>
+                                   <button type="button" data-group="edit" data-id="@categories.CAT_ID"><i class="ti ti-edit"></i></button>
+                                   <button type="button" class="link-danger" onclick="Delete(@categories.CAT_ID)"><i class="ti ti-trash"></i></button>
+                               </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3" class="text-center">This have no data</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+    <form method="post">
+        @Html.AntiForgeryToken()
+    </form>
+</div>
+@section Add{
+    <div id="Add" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p id="CategoryAddorEdit" class="mb-4 bg-light text-dark p-3 rounded-top">Add Category</p>
+                <div>
+                    <div class="row mb-3">
+                        <label for="Name" class="col-4 text-end">Name:</label>
+                        <input name="Name" id="Name" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div>
+                        <button id="btnAdd" type="submit" class="btn btn-primary me-2">Add</button>
+                        <button type="button" onclick="Add()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Edit {
+    <div id="Edit" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-5 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p id="CategoryAddorEdit" class="mb-4 bg-light text-dark p-3 rounded-top">Edit Category</p>
+                <div>
+                    <input id="inputEdit" type="text" name="x" value="" hidden />
+                    <div class="row mb-3">
+                        <label for="NameED" class="col-4 text-end">Name:</label>
+                        <input name="NameED" id="NameED" type="text" class="col-6 text-start" /><br />
+                    </div>
+                    <div>
+                        <button id="btnEdit" type="submit" class="btn btn-primary me-2">Save</button>
+                        <button type="button" onclick="Edit()" class="btn btn-danger">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Delete{
+    <div id="Delete" class="fixed-top top-100 container">
+        <div class="row justify-content-center">
+            <div class="col-auto p-0 pb-3 shadow-lg bg-light text-center rounded-bottom d-flex flex-column">
+                <p class="mb-4 bg-danger text-white p-3 rounded-top">
+                    Are you sure to delete ?
+                </p>
+                <input id="inputData" value="Category" hidden />
+                <input name="hidDlt" id="inputDlt" value="" hidden />
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button id="btnDlt" type="button" class="btn btn-danger me-2">Yes</button>
+                        <button type="button" onclick="Delete(null)" class="btn btn-primary">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#btnAdd").on('click', function () {
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Category?handler=AddCategory`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        Name: $('#Name').val(),
+                    }),
+                    success: function (res) {
+                        $('#Name').val("");
+                        // $("#tbody").append(
+                        //     `
+                        //             <tr data-id="${res.category.caT_ID}">
+                        //                 <td class="text-center">${res.category.caT_ID}</td>
+                        //                 <td data-name="${res.category.caT_ID}">${res.category.name}</td>
+                        //                 <td>${updateDT(res.category.createdDate)}</td>
+                        //                 <td>${res.category.createdBy}</td>
+                        //                 <td class="text-nowrap">
+                        //                 <button type="button" data-group="edit" data-id="${res.category.caT_ID}"><i class="ti ti-edit"></i></button>
+                        //                 <button type="button" class="link-danger" onclick="Delete(${res.category.caT_ID})"><i class="ti ti-trash"></i></button>
+                        //                 </td>
+                        //             </tr>
+                        //         `
+                        // );
+                        var table = $('#example').DataTable();
+                        var x = $('<tr>').attr('data-id', res.category.caT_ID)
+                            .append(`<td class="text-center">${res.category.caT_ID}</td>`)
+                            .append(`<td data-name="${res.category.caT_ID}">${res.category.name}</td>`)
+                            .append(`<td>${updateDT(res.category.createdDate)}</td>`)
+                            .append(`<td>${res.category.createdBy}</td>`)
+                            .append(`<td>
+                                        <button type="button" data-group="edit" data-id="${res.category.caT_ID}"><i class="ti ti-edit"></i></button>
+                                        <button type="button" class="link-danger" onclick="Delete(${res.category.caT_ID})"><i class="ti ti-trash"></i></button>
+                                    </td>`);
+                        table.row.add(x).draw();
+                        $("#Add").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+
+
+            $(`#tbody`).on('click', `button[data-group="edit"]`, function () {
+                Edit();
+                var CAT_ID = $(this).attr('data-id');
+                var name = $(`td[data-name='${CAT_ID}']`).text();
+                $('#NameED').val(name);
+                $('#inputEdit').val(CAT_ID);
+            });
+
+            $('#btnEdit').on('click', function () {
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/admin/Category?handler=EditCategory`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token
+                    },
+                    data: JSON.stringify({
+                        ID: $('#inputEdit').val(),
+                        Name: $('#NameED').val(),
+                    }),
+                    success: function (res) {
+                        console.log(res.category);
+                        $('#NameED').val("");
+                        var row = $(`tr[data-id="${res.category.caT_ID}"]`);
+                        row.find('td:eq(1)').text(res.category.name);
+                        row.find('td:eq(2)').text(updateDT(res.category.createdDate));
+                        row.find('td:eq(3)').text(res.category.createdBy);
+                        $("#Edit").removeClass("fixed-top top-50 translate-middle-y container").addClass("fixed-top top-100 container");
+                        return 0;
+                        //
+                    },
+                    error: function (xhr, status, error) {
+                        console.log('Error:', error); console.log('Status:', status); console.log('Response:', xhr);
+                    }
+                });
+            });
+        });
+    </script>
+}

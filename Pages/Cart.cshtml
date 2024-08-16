@@ -1,0 +1,284 @@
+﻿@page
+@model ShopOnline.Pages.CartModel
+@{
+    Layout = "";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HERO FACTORY - @ViewData["Title"]</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" asp-append-version="true" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" asp-append-version="true" rel="stylesheet">
+</head>
+
+<body>
+    @Html.AntiForgeryToken()
+    <div id="mainBG" style="min-height: 100vh">
+        <div class="fixed-top top-50 translate-middle-y container">
+            <div class="row justify-content-center">
+                <div class="col-12 shadow-b p-5">
+                    <!--CONTENT START-->
+                    <div class="row">
+
+
+                        <!-- START MAIN LEFT -->
+                        <div class="col-12 col-lg-8 d-flex flex-column">
+                            <!----  START TITLE  ---->
+                            <div class="row">
+                                <div class="col-12 text-start mb-4">
+                                    <h2 class="m-0 text-uppercase">
+                                        <span class="highlight">Shopping Cart</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <!----  END TITLE  ---->
+                            
+                            <div class="row mb-2 px-3">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p class="m-0 text-white">Product</p>
+                                    </div>
+                                    <div class="col-3 text-center">
+                                        <p class="m-0 text-white">Unit</p>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <p class="m-0 text-white">Price</p>
+                                    </div>
+                                    <div class="col-2 text-center">
+                                        <p class="m-0 text-white">Total</p>
+                                    </div>
+                                    <div class="col-1 text-center">
+                                        <p class="m-0 text-white"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!----  START CART  ---->
+                            <div id="ContentCart" class="row mb-2 px-3" style="height:250px;overflow:auto;">
+                                @if(Model.CartDetails != null && Model.CartDetails.Any()){
+                                    foreach (var cdt in Model.CartDetails)
+                                    {
+                                        <div data-block="@cdt.CARD_ID" class="row mb-2 rounded align-items-center" style="background: #442e6b; max-height: 75px;">
+                                            <div class="col-4 p-2">
+                                                <img src="~/img/products/@cdt.Product!.Image" alt="" class="m-0 img-fluid" style="width: 50px; height: 50px" />
+                                                <span class="m-0 text-white d-none d-lg-inline">@cdt.Product.Title</span>
+                                            </div>
+                                            <div class="col-3 text-center p-2">
+                                                <p class="m-0 text-white">
+                                                    <i data-group="UpdateQuant" data-id="@cdt.CARD_ID" data-value="-1" class="btn text-white bi bi-dash-square"></i>
+                                                    <span data-quantity="@cdt.CARD_ID" class="">@cdt.Quantity</span>
+                                                    <i data-group="UpdateQuant" data-id="@cdt.CARD_ID" data-value="1" class="btn text-white bi bi-plus-square"></i>
+                                                </p>
+                                            </div>
+                                            <div class="col-2 text-center p-2">
+                                                <p class="m-0 text-white">@cdt.Product.Price.ToString("#.#0")</p>
+                                            </div>
+                                            <div class="col-2 text-center p-2">
+                                                <p data-price="@cdt.CARD_ID" class="m-0 text-white">@cdt.Price.ToString("#.#0")</p>
+                                            </div>
+                                            <div class="col-1 text-start p-2">
+                                                <i data-group="DelCdt" data-id="@cdt.CARD_ID" class="bi bi-x fs-1 text-danger" style="cursor: pointer"></i>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="col-12 mt-3 text-center">
+                                        <p class="text-white">Get some product !</p>
+                                    </div>
+                                }
+                            </div>
+                            <!----  END CART  ---->
+
+
+                            <!----  START FOOTER  ---->
+                            <div class="row mt-auto">
+                                <div class="col-6">
+                                    <a asp-page="/Product" class="text-white">
+                                        <i class="bi bi-arrow-left"></i>
+                                        Back to shop
+                                    </a>
+                                </div>
+                                @* <div class="col-6 text-end">
+                                    <a href="#" class="text-white">
+                                        Check out
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div> *@
+                            </div>
+                            <!----  END FOOTER  ---->
+
+
+                        </div>
+                        <!-- END MAIN LEFT -->
+
+
+                        <!-- START MAIN RIGHT -->
+                        <div class="col-12 col-lg-4">
+                            <div class="px-3 bg-white rounded d-flex flex-column" style="height: 400px;">
+                                <div class="row py-3 mx-2 border-bottom border-1 border-secondary">
+                                    <div class="col-12">
+                                        <h2 class="m-0">Summary</h2>
+                                    </div>
+                                </div>
+                                <div class="row py-3 mx-2 border-bottom border-1 border-secondary">
+                                    <div class="col-12">
+                                        <h6>Payment methhod:</h6>
+                                    </div>
+                                    <div class="col-12">
+                                        <select class="w-100">
+                                            <option value="">COD (default)</option>
+                                            @* <option value="">Online (Updating)</option> *@
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row py-3 mx-2">
+                                    @if(Model.CartDetails != null && Model.CartDetails.Any())
+                                    {
+                                        int items = 0;
+                                        decimal total = 0;
+                                        foreach(var cdt in Model.CartDetails)
+                                        {
+                                            items += cdt.Quantity;
+                                            total += cdt.Price;
+                                        }
+                                        <div class="col-12 d-flex mb-3">
+                                            <span>Total items:</span>
+                                            <span id="TotalItems" class="ms-auto">@items</span>
+                                        </div>
+                                        <div class="col-12 d-flex mb-3">
+                                            <span class="me-auto">Total price:</span>
+                                            <span>$</span><span id="TotalPrice" class="">@total.ToString("#.#0")</span>
+                                        </div>
+                                    }
+                                </div>
+                                <div class="row py-3 mx-2 mt-auto">
+                                    <div class="col-12">
+                                        <a asp-page="/CheckOut" class="btn btn-special btn-lg w-100">CHECK OUT</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MAIN RIGHT -->
+
+
+                    </div>
+                    <!--CONTENT END  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="~/js/main.js" asp-append-version="true"></script>
+    <script src="~/js/index.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $(`i[data-group='DelCdt']`).on('click', function () {
+                // alert($(this).attr('data-id'));
+                var id = $(this).attr('data-id');
+                var OldItems = Number($('#TotalItems').text());
+                var OldPrice = Number($('#TotalPrice').text());
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: `/Cart?handler=DltCdt`,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token,
+                    },
+                    data: JSON.stringify({
+                        CARD_ID: Number(id),
+                    }),
+                    success: function (res) { 
+                        console.table(res);
+                        $(`div[data-block='${id}']`).remove();
+                        $('#TotalItems').text(OldItems - res.items);
+                        $('#TotalPrice').text((OldPrice - res.prices).toFixed(2));
+                        localStorage.setItem("quantity", OldItems - res.items);
+                        if (res.check == 0)
+                        {
+                            $('#ContentCart').append(
+                            `
+                                <div class="col-12 mt-3 text-center">
+                                    <p class="text-white">Get some product !</p>
+                                </div>
+                            `);
+                        }
+                    },
+                    error: function (er) { console.log(er); }
+                });
+            });
+
+            $(`i[data-group='UpdateQuant']`).on('click', function () {
+                var id = $(this).attr('data-id');
+                var val = $(this).attr('data-value');
+                var quantt = $(`span[data-quantity='${id}']`).text();
+                if (Number(quantt) == 1 && val == -1) 
+                {
+                    return false;
+                }
+                var token = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    url: '/Cart?handler=UpCdt',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    headers: {
+                        RequestVerificationToken: token,
+                    },
+                    data: JSON.stringify({
+                        CARD_ID: id,
+                        Num: val,
+                    }),
+                    success: function (res) {
+                        $(`span[data-quantity='${id}']`).text(res.quantity);
+                        $(`p[data-price='${id}']`).text(res.price.toFixed(2));
+                        $('#TotalItems').text(res.items);
+                        $('#TotalPrice').text(res.totals.toFixed(2));
+                        localStorage.setItem("quantity", res.items);
+                    },
+                    error: function (er) {
+
+                    }
+                });
+            });
+
+
+        });
+    </script>
+</body>
+</html>
